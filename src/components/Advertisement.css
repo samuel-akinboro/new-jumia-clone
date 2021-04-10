@@ -1,0 +1,22 @@
+.ad img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.ad{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    padding: 8px;
+}
+
+.ad__image{
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ad__image:hover{
+    transform: scale(1.02);
+}
