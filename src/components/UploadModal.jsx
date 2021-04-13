@@ -27,7 +27,7 @@ function UploadModal({images, file, setFile, setImage}) {
             }
             
         }
-     }, [url])
+     }, [url, file.id, images, setImage])
     
     return (
         <div>

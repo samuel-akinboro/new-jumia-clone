@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import {db, photoDB } from '../Firebase'
+import { photoDB } from '../Firebase'
 
 const useStorage = (file) => {
     const [progress, setProgress] = useState(null);

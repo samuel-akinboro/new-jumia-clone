@@ -7,7 +7,7 @@ import SingleCartItem from "./SingleCartItem";
 import Footer from "./Footer";
 
 function Cart() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
     <>
       <div className="cart">

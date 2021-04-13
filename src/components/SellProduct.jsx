@@ -57,7 +57,7 @@ function SellProduct() {
     db.collection('products').add({
       name: text.title,
       number: "1",
-      price: text.price,
+      // price: text.price,
       src: image.firstImage,
       allImages: image,
       textPrice: text.price,

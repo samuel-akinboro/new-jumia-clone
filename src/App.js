@@ -9,12 +9,10 @@ import { auth } from './Firebase'
 import { useStateValue } from './StateProvider';
 import SellProduct from './components/SellProduct';
 import './Firebase'
-import './Promise'
-import redux from './playground/redux-101'
 
 
 const App = () => {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [ dispatch ] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged(authUser => {
       // check if user is logged in or was logged in
@@ -30,7 +28,7 @@ const App = () => {
         })
       }
     })
-  }, [])
+  }, [dispatch])
 
     return (
       <div className="app">

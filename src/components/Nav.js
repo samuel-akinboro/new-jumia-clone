@@ -6,7 +6,7 @@ import { auth } from '../Firebase';
 
 
 function Nav() {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket, user }] = useStateValue();
   const handleLogOut = () => {
     if (user) {
       auth.signOut();
