@@ -165,6 +165,20 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .banner {
+        grid-template-columns: 1fr;
+        height: 280px;
+    }
+
+    .services {
+        grid-template-columns: repeat(4, minmax(270px, 1fr));
+        grid-template-rows: auto;
+        grid-gap: 17px;
+        overflow-x: auto;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .banner {
         grid-template-columns: 1fr;
@@ -184,7 +198,7 @@
         height: 200px;
     }
 
-    .services {
+    /* .services {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
+    } */
 }

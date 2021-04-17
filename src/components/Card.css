@@ -18,6 +18,7 @@
     transition: 0.1s;
     cursor: pointer;
     border-radius: 5px;
+    /* width: 183px; */
 }
 
 .card__info{
@@ -61,5 +62,15 @@
 @media only screen and (max-width: 770px) {
    .card button {
        display: flex;
+   }
+
+   .card__info h5{
+       text-align: center;
+       /* font-size: 13px; */
+       font-weight: 500;
+   }
+
+   .card__info p{
+       text-align: center;
    }
 }

@@ -3,6 +3,7 @@ import Advertisement from './Advertisement';
 import './AllProducts.css'
 import Card from './Card';
 import {db} from '../Firebase'
+import data from '../Product-Data/products.json';
 
 function AllProducts() {
   const [products, setProducts] = useState([])
@@ -13,11 +14,13 @@ function AllProducts() {
     }))))
   }, [])
 
+  console.log(data, products)
+
   return (
     <div className="all-products">
       <div className="product-box">
         <h3>Top selling items</h3>
-        <div className="product-list">
+        <div className="product-list product-slider">
           <Card
             id="1"
             src="/images/deals/1.jpg"
@@ -60,10 +63,39 @@ function AllProducts() {
             price="2500"
             number="1"
           />
+          <Card
+            id="1"
+            src="/images/deals/1.jpg"
+            title="Yellow Gold plated Wedding Ring"
+            price="2500"
+            number="1"
+          />
+          <Card
+            id="2"
+            src="/images/deals/2.jpg"
+            title="Yellow Gold plated Wedding Ring"
+            price="2500"
+            number="1"
+          />
+          <Card
+            id="3"
+            src="/images/deals/3.jpg"
+            title="Yellow Gold plated Wedding Ring"
+            price="2500"
+            number="1"
+          />
+          <Card
+            id="6"
+            src="/images/deals/5.jpg"
+            title="Yellow Gold plated Wedding Ring"
+            price="2500"
+            number="1"
+          />
+          
         </div>
       </div>
 
-      <div className="product-box">
+      {products.length > 0 && <div className="product-box">
         <h3 className="yellow">Best Portable Speaker Sale of the Season</h3>
         <div className="product-list">
           {products.map((product) => (
@@ -77,7 +109,7 @@ function AllProducts() {
             />
           ))}
         </div>
-      </div>
+      </div>}
 
       <div className="product-box">
         <h3
@@ -134,7 +166,7 @@ function AllProducts() {
 
       <div className="product-box">
         <h3>Featured Category</h3>
-        <div className="product-list">
+        <div className="product-list category-row">
           <Card
             src="/images/collection/1.jpg"
             title="Televisions"
@@ -204,7 +236,7 @@ function AllProducts() {
 
       <div className="product-box">
         <h3>Featured Category</h3>
-        <div className="product-list">
+        <div className="product-list category-row">
           <Card
             src="/images/collection/1.jpg"
             title="Televisions"

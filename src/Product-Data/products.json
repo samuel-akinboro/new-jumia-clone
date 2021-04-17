@@ -1,0 +1,13 @@
+{
+"products" : [
+  {
+    "id": 1,
+    "imageUrl": "/images/deals/1.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "10,000",
+    "priceDigit": "10000",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  }
+]
+}

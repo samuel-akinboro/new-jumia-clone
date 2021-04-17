@@ -1,11 +1,11 @@
 .nav{
     background: #FFFFFF;
     padding: 16px;
-    /* box-shadow: 0px 3px 8px rgb(235, 233, 233); */
+    box-shadow: 0px 1px 4px rgb(210, 207, 207);
     position: sticky;
     top: 0;
     position: -webkit-sticky; 
-    border-bottom: 1px solid rgb(231, 225, 225);
+    /* border-bottom: 1px solid rgb(231, 225, 225); */
     z-index: 100;
 }
 
@@ -60,7 +60,7 @@
     justify-content: space-between;
     margin-right: 2.8em;
     align-items: center;
-    font-weight: 600;
+    font-weight: 500;
     color: #3C3C3C;
     position: relative;
     cursor: pointer;
@@ -93,7 +93,7 @@
 .fa-shopping-cart {
     font-size: 1.3em;
     padding: 0 10px;
-    font-weight: 300;
+    font-weight: 400;
     color: #3C3C3C;
 }
 

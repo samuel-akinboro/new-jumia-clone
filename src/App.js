@@ -28,7 +28,7 @@ const App = () => {
         })
       }
     })
-  }, [dispatch])
+  }, [])
 
     return (
       <div className="app">

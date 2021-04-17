@@ -23,6 +23,7 @@ function Card({ id, src, title, price, categoryCard, number, textPrice }) {
     
   }
 
+
   return (
     <div className="card">
       <img src={src} alt="" />
