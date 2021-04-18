@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css'
 import Home from './Home';
 import Header from './components/Header'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Cart from './components/Cart';
 import Login from './components/Login';
-import { auth } from './Firebase'
-import { useStateValue } from './StateProvider';
+// import { auth } from './Firebase'
+// import { useStateValue } from './StateProvider';
 import SellProduct from './components/SellProduct';
 import './Firebase'
 
