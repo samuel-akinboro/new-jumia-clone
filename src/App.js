@@ -12,23 +12,23 @@ import './Firebase'
 
 
 const App = () => {
-  const [ dispatch ] = useStateValue();
-  useEffect(() => {
-    auth.onAuthStateChanged(authUser => {
-      // check if user is logged in or was logged in
-      if (authUser) {
-        dispatch({
-          type: 'SET_USER',
-          user: authUser
-        })
-      } else {
-        dispatch({
-          type: 'SET_USER',
-          user: null
-        })
-      }
-    })
-  }, [])
+  // const [ dispatch ] = useStateValue();
+  // useEffect(() => {
+  //   auth.onAuthStateChanged(authUser => {
+  //     // check if user is logged in or was logged in
+  //     if (authUser) {
+  //       dispatch({
+  //         type: 'SET_USER',
+  //         user: authUser
+  //       })
+  //     } else {
+  //       dispatch({
+  //         type: 'SET_USER',
+  //         user: null
+  //       })
+  //     }
+  //   })
+  // }, [])
 
     return (
       <div className="app">
