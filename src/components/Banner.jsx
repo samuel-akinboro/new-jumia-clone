@@ -45,7 +45,7 @@ function Banner() {
           </p>
         </div>
         <div className="banner__center">
-          <img src="/images/banner/gif1.gif" alt="" />
+          <img src="/images/banner/ban1.jpg" alt="" />
         </div>
         <div className="banner__right">
           <div className="box">

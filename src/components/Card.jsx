@@ -25,7 +25,7 @@ function Card({ id, src, title, price, categoryCard, number, textPrice }) {
 
 
   return (
-    <div className="card">
+    <div className="card" style={{width: "183px"}}>
       <img src={src} alt="" />
       <div className="card__info">
         <p>{title}</p>
