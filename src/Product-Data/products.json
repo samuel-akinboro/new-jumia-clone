@@ -1,11 +1,148 @@
 {
-"products" : [
+"topSelling" : [
   {
-    "id": 1,
-    "imageUrl": "/images/deals/1.jpg",
+    "id": 111,
+    "src": "/images/deals/16.jpg",
     "title": "Yellow Gold plated Wedding Ring",
-    "price": "10,000",
-    "priceDigit": "10000",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 121,
+    "src": "/images/deals/17.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "3,500",
+    "priceDigit": "3500",
+    "number": "1",
+    "numberAvailableInStock": "8"
+  },
+  {
+    "id": 131,
+    "src": "/images/deals/18.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "7,500",
+    "priceDigit": "7500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 141,
+    "src": "/images/deals/19.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 151,
+    "src": "/images/deals/20.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 161,
+    "src": "/images/deals/21.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  }
+],
+"latestProducts": [
+  {
+    "id": 11121,
+    "src": "/images/deals/6.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 1221,
+    "src": "/images/deals/7.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11321,
+    "src": "/images/deals/8.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11421,
+    "src": "/images/deals/9.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11521,
+    "src": "/images/deals/10.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11621,
+    "src": "/images/deals/11.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11721,
+    "src": "/images/deals/12.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11821,
+    "src": "/images/deals/13.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11921,
+    "src": "/images/deals/14.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "1",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 111021,
+    "src": "/images/deals/15.jpg",
+    "title": "Yellow Gold plated Wedding Ring",
+    "price": "2,500",
+    "priceDigit": "2500",
     "number": "1",
     "numberAvailableInStock": "7"
   }

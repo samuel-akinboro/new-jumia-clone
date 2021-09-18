@@ -22,7 +22,7 @@ function Cart() {
             <h4 className="small">SUBTOTAL</h4>
           </div>
           <div className="all-items">
-            {basket.map(item => <SingleCartItem id={item.id} title={item.title} image={item.image} price={item.price} number={item.number} key={item.id} />)}
+            {basket.map(item => <SingleCartItem id={item.id} title={item.title} image={item.image} price={item.price} priceDigit={item.priceDigit} number={item.number} key={item.id} />)}
           </div>
         </div>
         <div className="total-box">

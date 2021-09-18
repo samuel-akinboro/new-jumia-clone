@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.css'
 import { useStateValue } from '../StateProvider'
 
-function Card({ id, src, title, price, categoryCard, number, textPrice }) {
+function Card({ id, src, title, price, priceDigit, numberAvailableInStock, categoryCard, number }) {
   
   const [{ basket }, dispatch] = useStateValue();
   // check if the item already exists 
@@ -17,10 +17,25 @@ function Card({ id, src, title, price, categoryCard, number, textPrice }) {
         image: src,
         price: price,
         number: number,
-        textPrice: textPrice
+        priceDigit,
+        numberAvailableInStock
       }
     })
     
+  }
+
+  // where to increase item in cart
+
+  const removeItem = () => {
+    basket.forEach((item, i) => {
+      if (item.id === id) {
+        basket.splice(i, 1);
+        dispatch({
+          type: "REMOVE_SINGLE_PRODUCT",
+          items: [...basket]
+        });
+        }
+      })
   }
 
 
@@ -29,7 +44,7 @@ function Card({ id, src, title, price, categoryCard, number, textPrice }) {
       <img src={src} alt="" />
       <div className="card__info">
         <p>{title}</p>
-        {price && <h5>₦ {textPrice? textPrice : price}</h5>}
+        {price && <h5>₦ {price}</h5>}
         {!categoryCard && <button onClick={addToBasket}>add to basket</button>}
       </div>
     </div>

@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import { useStateValue } from '../StateProvider';
 
-function SingleCartItem({ id, title, image, price, number}) {
+function SingleCartItem({ id, title, image, price, number, priceDigit}) {
     // number of a single item you wanna purchase
     const [num, setNumber] = useState(number);
-     const [{ basket }, dispatch] = useStateValue();
+    const [{ basket }, dispatch] = useStateValue();
 
   // this gets the number of a single product you want to purchase
     const selectNumber = (e) => {
@@ -71,7 +71,7 @@ function SingleCartItem({ id, title, image, price, number}) {
       <div className="product__unitPrice small">
         <p>₦ {price}</p>
       </div>
-      <div className="product__subtotal small">{num * price}</div>
+      <div className="product__subtotal small">{num * priceDigit}</div>
     </div>
   );
 }

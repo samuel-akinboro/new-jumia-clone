@@ -4,61 +4,51 @@ import './AllProducts.css'
 import Card from './Card';
 import {db} from '../Firebase'
 // import data from '../Product-Data/products.json';
-import Slider from "react-slick";
+// import Slider from "react-slick";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from 'react-responsive-carousel';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import RightArrow from './RightArrow';
-import LeftArrow from './LeftArrow';
+// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick-theme.css";
+// import RightArrow from './RightArrow';
+// import LeftArrow from './LeftArrow';
+import data from  '../Product-Data/products.json'
 
 function AllProducts() {
-  const [products, setProducts] = useState([])
+
+  const [products, setProducts] = useState([]);
+
   useEffect(() => {
     db.collection('products').onSnapshot(snapshot => setProducts(snapshot.docs.map(doc => ({
       id: doc.id,
       ...doc.data()
     }))))
-  }, [])
+  }, []);
 
-  const settings = {
-    slidesToScroll:10,
-    adaptiveHeight: true,
-    slidesToShow: 6,
-    infinite: false,
-    nextArrow: <RightArrow  />,
-    prevArrow: <LeftArrow />,
-    responsive: [
-      {
-        breakpoint: 1124,
-        settings: {
-          slidesToShow: 6,
-          slidesToScroll: 6
-        }
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 6
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 6
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3
+    },
+    small: {
+      breakpoint: { max: 600, min: 479 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 480, min: 0 },
+      items: 1
+    }
   };
 
 
@@ -84,48 +74,17 @@ function AllProducts() {
       <div className="product-box">
         <h3>Top selling items</h3>
         <div className="product-list">
+          {data.topSelling.map(item => 
           <Card
-            id="11"
-            src="/images/deals/16.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="12"
-            src="/images/deals/17.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="3500"
-            number="1"
-          />
-          <Card
-            id="13"
-            src="/images/deals/18.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="200"
-            number="1"
-          />
-          <Card
-            id="14"
-            src="/images/deals/19.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="15"
-            src="/images/deals/20.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="16"
-            src="/images/deals/21.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="8000"
-            number="1"
-          />
+            key={item.id}
+            id={item.id}
+            src={item.src}
+            title={item.title}
+            price={item.price}
+            priceDigit={item.priceDigit}
+            number={item.number}
+            numberAvailableInStock={item.numberAvailableInStock}
+          />)}
         </div>
       </div>
 
@@ -134,80 +93,27 @@ function AllProducts() {
           className="yellow"
           style={{ backgroundColor: "#FF0000", color: "#fff" }}
         >
-          Best Portable Speaker Sale of the Season
+          Latest Products with discounts
         </h3>
-        <Slider {...settings} className="product-list product-slider">
-      <Card
-            id="1"
-            src="/images/deals/6.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="2"
-            src="/images/deals/7.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="3"
-            src="/images/deals/8.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="4"
-            src="/images/deals/9.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="5"
-            src="/images/deals/10.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="6"
-            src="/images/deals/11.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="7"
-            src="/images/deals/12.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="8"
-            src="/images/deals/13.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="9"
-            src="/images/deals/14.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="10"
-            src="/images/deals/15.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-    </Slider>
+        <div style={{padding: "20px 0"}}>
+        <Carousel 
+          responsive={responsive} 
+          itemClass="carousel-item-padding-40-px"
+          containerClass="carousel-container"
+        >
+          {data.latestProducts.map(item => 
+            <Card
+            key={item.id}
+            id={item.id}
+            src={item.src}
+            title={item.title}
+            price={item.price}
+            priceDigit={item.priceDigit}
+            number={item.number}
+            numberAvailableInStock={item.numberAvailableInStock}
+          />)}
+        </Carousel>
+        </div>
       </div>
 
       <div className="product-box">

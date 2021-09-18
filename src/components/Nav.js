@@ -18,14 +18,14 @@ function Nav() {
       <div className="desktop-nav">
         <div className="logo">
           <Link to="/">
-            <img alt="jumia logo" src="images/logo/final-logo.png" />
+            <img alt="jumia logo" src="images/logo/jumia.svg" />
           </Link>
         </div>
         <div className="search">
           <input
             type="search"
             placeholder="Search products, brand and categories"
-          /> <button>search</button>
+          /> <button>SEARCH</button>
         </div>
         <div className="options">
           < Link to = {!user && "/login"}
