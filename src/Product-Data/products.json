@@ -3,55 +3,55 @@
   {
     "id": 111,
     "src": "/images/deals/16.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
+    "title": "Red and black striped T-shirt",
     "price": "2,500",
     "priceDigit": "2500",
-    "number": "1",
-    "numberAvailableInStock": "7"
+    "number": "0",
+    "numberAvailableInStock": "3"
   },
   {
     "id": 121,
     "src": "/images/deals/17.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "3,500",
-    "priceDigit": "3500",
-    "number": "1",
+    "title": "Black male sneakers",
+    "price": "7,500",
+    "priceDigit": "7500",
+    "number": "0",
     "numberAvailableInStock": "8"
   },
   {
     "id": 131,
     "src": "/images/deals/18.jpg",
     "title": "Yellow Gold plated Wedding Ring",
-    "price": "7,500",
-    "priceDigit": "7500",
-    "number": "1",
-    "numberAvailableInStock": "7"
+    "price": "20,000",
+    "priceDigit": "20000",
+    "number": "0",
+    "numberAvailableInStock": "4"
   },
   {
     "id": 141,
     "src": "/images/deals/19.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
+    "title": "Blue and black striped T-shirt",
     "price": "2,500",
     "priceDigit": "2500",
-    "number": "1",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 151,
     "src": "/images/deals/20.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
+    "title": "White polo with custom design",
     "price": "2,500",
     "priceDigit": "2500",
-    "number": "1",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 161,
     "src": "/images/deals/21.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "White Unisex Sneakers",
+    "price": "12,500",
+    "priceDigit": "12500",
+    "number": "0",
     "numberAvailableInStock": "7"
   }
 ],
@@ -59,64 +59,64 @@
   {
     "id": 11121,
     "src": "/images/deals/6.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "50 inches LED TV",
+    "price": "62,500",
+    "priceDigit": "62500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 1221,
     "src": "/images/deals/7.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "Quba A46",
+    "price": "33,500",
+    "priceDigit": "33500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 11321,
     "src": "/images/deals/8.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "32 inches LED tv",
+    "price": "42,500",
+    "priceDigit": "42500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 11421,
     "src": "/images/deals/9.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "Apple watch",
+    "price": "92,500",
+    "priceDigit": "92500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 11521,
     "src": "/images/deals/10.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "Rechargeable hair clipper",
+    "price": "8,500",
+    "priceDigit": "8500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 11621,
     "src": "/images/deals/11.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "Shark sole Sneakers",
+    "price": "7,500",
+    "priceDigit": "7500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
     "id": 11721,
     "src": "/images/deals/12.jpg",
-    "title": "Yellow Gold plated Wedding Ring",
-    "price": "2,500",
-    "priceDigit": "2500",
-    "number": "1",
+    "title": "pink women Wedding Bag",
+    "price": "5,500",
+    "priceDigit": "5500",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
@@ -125,7 +125,7 @@
     "title": "Yellow Gold plated Wedding Ring",
     "price": "2,500",
     "priceDigit": "2500",
-    "number": "1",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
@@ -134,7 +134,7 @@
     "title": "Yellow Gold plated Wedding Ring",
     "price": "2,500",
     "priceDigit": "2500",
-    "number": "1",
+    "number": "0",
     "numberAvailableInStock": "7"
   },
   {
@@ -143,7 +143,175 @@
     "title": "Yellow Gold plated Wedding Ring",
     "price": "2,500",
     "priceDigit": "2500",
-    "number": "1",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  }
+],
+"bestFood": [
+  {
+    "id": 11102122,
+    "src": "/images/deals/22.jpg",
+    "title": "One pack of delicious indomitable",
+    "price": "3,500",
+    "priceDigit": "3500",
+    "number": "0",
+    "numberAvailableInStock": "20"
+  },
+  {
+    "id": 11102123,
+    "src": "/images/deals/23.jpg",
+    "title": "Royal stallion rice",
+    "price": "18,500",
+    "priceDigit": "18500",
+    "number": "0",
+    "numberAvailableInStock": "10"
+  },
+  {
+    "id": 11102124,
+    "src": "/images/deals/24.jpg",
+    "title": "5L Kings vegetable oil",
+    "price": "5,000",
+    "priceDigit": "5000",
+    "number": "0",
+    "numberAvailableInStock": "5"
+  },
+  {
+    "id": 11102125,
+    "src": "/images/deals/25.jpg",
+    "title": "1L Power oil",
+    "price": "3,500",
+    "priceDigit": "3500",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11102126,
+    "src": "/images/deals/26.jpg",
+    "title": "75cl eva bottle water pack",
+    "price": "1,900",
+    "priceDigit": "1900",
+    "number": "0",
+    "numberAvailableInStock": "3"
+  },
+  {
+    "id": 11102127,
+    "src": "/images/deals/27.jpg",
+    "title": "Royal stallion rice",
+    "price": "19,000",
+    "priceDigit": "19000",
+    "number": "0",
+    "numberAvailableInStock": "5"
+  }
+],
+"mustHave": [
+  {
+    "id": 11102128,
+    "src": "/images/deals/28.jpg",
+    "title": "32 inches LED TV",
+    "price": "49,000",
+    "priceDigit": "49000",
+    "number": "0",
+    "numberAvailableInStock": "5"
+  },
+  {
+    "id": 11102129,
+    "src": "/images/deals/29.jpg",
+    "title": "inflatable swimming pool",
+    "price": "20,000",
+    "priceDigit": "20000",
+    "number": "0",
+    "numberAvailableInStock": "8"
+  },
+  {
+    "id": 11102130,
+    "src": "/images/deals/30.jpg",
+    "title": "Monopoly game",
+    "price": "5,000",
+    "priceDigit": "5000",
+    "number": "0",
+    "numberAvailableInStock": "20"
+  },
+  {
+    "id": 11102131,
+    "src": "/images/deals/31.jpg",
+    "title": "Soft bristle brush",
+    "price": "2,500",
+    "priceDigit": "2500",
+    "number": "0",
+    "numberAvailableInStock": "5"
+  },
+  {
+    "id": 11102132,
+    "src": "/images/deals/32.jpg",
+    "title": "40 inches LED TV",
+    "price": "56,000",
+    "priceDigit": "56000",
+    "number": "0",
+    "numberAvailableInStock": "5"
+  },
+  {
+    "id": 11102133,
+    "src": "/images/deals/33.jpg",
+    "title": "Canon Digital Camera",
+    "price": "400,000",
+    "priceDigit": "400000",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  }
+],
+"fitnessGadgets": [
+  {
+    "id": 11102134,
+    "src": "/images/deals/34.jpg",
+    "title": "Women sneakers",
+    "price": "20,000",
+    "priceDigit": "20000",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11102135,
+    "src": "/images/deals/35.jpg",
+    "title": "Women suit",
+    "price": "30,000",
+    "priceDigit": "30000",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11102136,
+    "src": "/images/deals/36.jpg",
+    "title": "42 inches LED TV",
+    "price": "60,000",
+    "priceDigit": "60000",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11102137,
+    "src": "/images/deals/37.jpg",
+    "title": "Smart fitness band",
+    "price": "16,000",
+    "priceDigit": "16000",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11102138,
+    "src": "/images/deals/38.jpg",
+    "title": "TWS airpods",
+    "price": "4,000",
+    "priceDigit": "4000",
+    "number": "0",
+    "numberAvailableInStock": "7"
+  },
+  {
+    "id": 11102139,
+    "src": "/images/deals/39.jpg",
+    "title": "Redmi Note 8",
+    "price": "80,000",
+    "priceDigit": "80000",
+    "number": "0",
     "numberAvailableInStock": "7"
   }
 ]

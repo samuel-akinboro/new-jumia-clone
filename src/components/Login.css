@@ -10,11 +10,13 @@
     font-weight: 500;
 }
 
-.container p {
+.container > p {
     padding: 1em;
     font-size: 1.3em;
     font-weight: 600;
     text-align: center;
+    background-color: #F68B1E;
+    color: white;
 }
 
 .container input {
@@ -29,35 +31,39 @@
 
 .container form button {
     padding: 0.5em;
-    background: #166FE5;
+    background: #F68B1E;
     border: none;
     color: white;
     font-size: 1.3em;
     border-radius: 6px;
     margin-bottom: 1em;
+    cursor: pointer;
+    margin-top: 1em;
 }
 
 .container form p {
     font-size: 0.9em;
     text-align-last: center;
     margin-bottom: 1.5em;
-    color: #1877F2;
+    color: #F68B1E;
     border-bottom: 1px solid rgb(206, 199, 199);
     padding-bottom: 1em;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .container form .green {
     font-size: 1em;
     padding: 0.9em;
-    color: white;
-    background: rgb(65, 196, 38);
+    color: #db7610;
+    background: #f68a1e77;
     text-align: center;
     width: 200px;
     margin: 0 auto;
     border-radius: 6px;
     margin-bottom: 0.4em;
     font-weight: 600;
+    /* border: 1px solid #F68B1E; */
 }
 
 .container form {

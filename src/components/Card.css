@@ -9,6 +9,14 @@
     text-align: left;
 }
 
+.card .message{
+    color: white;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 1em 0;
+}
+
 .card img{
     width: 100%;
     object-fit: contain;
@@ -19,6 +27,7 @@
     cursor: pointer;
     border-radius: 5px;
     /* width: 183px; */
+    position: relative;
 }
 
 .card__info{
@@ -31,12 +40,12 @@
 }
 
 .card h5{
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 16px;
     color: rgb(49, 49, 49);
 }
 
-.card button{
+.card .card__info > button{
     background: #F68B1E;
     color: white;
     border: none;
@@ -50,17 +59,37 @@
     transition: 0.4s;
 }
 
+.card .card__info .number-of-item button{
+    background: #F68B1E;
+    color: white;
+    padding: 0.7em;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+    box-shadow: 0px 4px 8px rgb(190, 189, 189);
+}
+
+.card .card__info .number-of-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .card button:hover{
     box-shadow: 0px 0px 8px rgb(146, 145, 145);
 
 }
 
-.card:hover button {
+.card:hover .card__info > button {
     display: flex;
 }
 
 @media only screen and (max-width: 770px) {
-   .card button {
+   .card .card__info > button {
        display: flex;
    }
 

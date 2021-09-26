@@ -3,17 +3,66 @@ import Advertisement from './Advertisement';
 import './AllProducts.css'
 import Card from './Card';
 import {db} from '../Firebase'
-// import data from '../Product-Data/products.json';
-// import Slider from "react-slick";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from 'react-responsive-carousel';
-// import "slick-carousel/slick/slick.css"; 
-// import "slick-carousel/slick/slick-theme.css";
-// import RightArrow from './RightArrow';
-// import LeftArrow from './LeftArrow';
 import data from  '../Product-Data/products.json'
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+
+const CustomRightArrow = ({ onClick, ...rest }) => {
+  const {
+    onMove,
+    carouselState: { currentSlide, deviceType }
+  } = rest;
+  // onMove means if dragging or swiping in progress.
+  return <button 
+            onClick={() => onClick()} 
+            style={{
+              height: "40px",
+              width: "40px",
+              background: "rgba(0,0,0,0.5)",
+              zIndex: "99", 
+              position: "absolute", 
+              top: "80px",
+              right: "0",
+              borderRadius: "50%",
+              border: "none",
+              justifyContent: 'center',
+              alignItems: 'center',
+              cursor: "pointer"
+              }}
+              className="custom-arrows">
+           <ChevronRightIcon />
+         </button>;
+};
+
+const CustomLeftArrow = ({ onClick, ...rest }) => {
+  const {
+    onMove,
+    carouselState: { currentSlide, deviceType }
+  } = rest;
+  // onMove means if dragging or swiping in progress.
+  return <button 
+            onClick={() => onClick()} 
+            style={{
+              height: "40px",
+              width: "40px",
+              background: "rgba(0,0,0,0.5)",
+              zIndex: 102, 
+              position: 'absolute', 
+              top: "80px",
+              left: "0",
+              borderRadius: "50%",
+              border: "none",
+              justifyContent: 'center',
+              alignItems: 'center',
+              cursor: "pointer"
+              }}
+              className="custom-arrows"
+              >
+           <ChevronLeftIcon />
+         </button>;
+};
 
 function AllProducts() {
 
@@ -100,6 +149,10 @@ function AllProducts() {
           responsive={responsive} 
           itemClass="carousel-item-padding-40-px"
           containerClass="carousel-container"
+          customRightArrow={<CustomRightArrow />}
+          customLeftArrow={<CustomLeftArrow />}
+          // customButtonGroup={<CustomButtonGroup />}
+          // arrows={false}
         >
           {data.latestProducts.map(item => 
             <Card
@@ -257,50 +310,19 @@ function AllProducts() {
       </div>
 
       <div className="product-box">
-        <h3 className="yellow">Best Portable Speaker Sale of the Season</h3>
+        <h3 className="yellow">Best Delicious Food Sale of the Season</h3>
         <div className="product-list">
-          <Card
-            id="22"
-            src="/images/deals/22.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="23"
-            src="/images/deals/23.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="3500"
-            number="1"
-          />
-          <Card
-            id="24"
-            src="/images/deals/24.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="200"
-            number="1"
-          />
-          <Card
-            id="25"
-            src="/images/deals/25.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="26"
-            src="/images/deals/26.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="27"
-            src="/images/deals/27.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="8000"
-            number="1"
-          />
+        {data.bestFood.map(item => 
+            <Card
+            key={item.id}
+            id={item.id}
+            src={item.src}
+            title={item.title}
+            price={item.price}
+            priceDigit={item.priceDigit}
+            number={item.number}
+            numberAvailableInStock={item.numberAvailableInStock}
+          />)}
         </div>
       </div>
 
@@ -312,51 +334,20 @@ function AllProducts() {
           className="yellow"
           style={{ backgroundColor: "#0000FF", color: "#fff" }}
         >
-          Best Portable Speaker Sale of the Season
+          Best Must Have of the Season
         </h3>
         <div className="product-list">
-          <Card
-            id="28"
-            src="/images/deals/28.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="29"
-            src="/images/deals/29.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="3500"
-            number="1"
-          />
-          <Card
-            id="30"
-            src="/images/deals/30.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="200"
-            number="1"
-          />
-          <Card
-            id="31"
-            src="/images/deals/31.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="32"
-            src="/images/deals/32.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="33"
-            src="/images/deals/33.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="8000"
-            number="1"
-          />
+        {data.mustHave.map(item => 
+            <Card
+            key={item.id}
+            id={item.id}
+            src={item.src}
+            title={item.title}
+            price={item.price}
+            priceDigit={item.priceDigit}
+            number={item.number}
+            numberAvailableInStock={item.numberAvailableInStock}
+          />)}
         </div>
       </div>
 
@@ -368,51 +359,20 @@ function AllProducts() {
           className="yellow"
           style={{ backgroundColor: "#FF0000", color: "#fff" }}
         >
-          Best Portable Speaker Sale of the Season
+          Best Fitness Gadgets of the Season
         </h3>
         <div className="product-list">
-          <Card
-            id="34"
-            src="/images/deals/34.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="35"
-            src="/images/deals/35.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="3500"
-            number="1"
-          />
-          <Card
-            id="36"
-            src="/images/deals/36.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="200"
-            number="1"
-          />
-          <Card
-            id="37"
-            src="/images/deals/37.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="38"
-            src="/images/deals/38.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="2500"
-            number="1"
-          />
-          <Card
-            id="39"
-            src="/images/deals/39.jpg"
-            title="Yellow Gold plated Wedding Ring"
-            price="8000"
-            number="1"
-          />
+        {data.fitnessGadgets.map(item => 
+            <Card
+            key={item.id}
+            id={item.id}
+            src={item.src}
+            title={item.title}
+            price={item.price}
+            priceDigit={item.priceDigit}
+            number={item.number}
+            numberAvailableInStock={item.numberAvailableInStock}
+          />)}
         </div>
       </div>
 

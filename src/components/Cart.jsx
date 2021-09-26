@@ -14,18 +14,18 @@ function Cart() {
         <h1>
           Cart ({basket.length} {basket.length > 1 ? "items" : "item"})
         </h1>
-        <div className="item-box">
-          <div className="headings">
+        {basket.length > 0 && <div className="item-box">
+          <div className="headings hide-desktop">
             <h4 className="wide">ITEM</h4>
             <h4 className="small">QUANTITY</h4>
             <h4 className="small">UNIT PRICE</h4>
             <h4 className="small">SUBTOTAL</h4>
           </div>
           <div className="all-items">
-            {basket.map(item => <SingleCartItem id={item.id} title={item.title} image={item.image} price={item.price} priceDigit={item.priceDigit} number={item.number} key={item.id} />)}
+            {basket.map(item => <SingleCartItem {...item} key={item.id} />)}
           </div>
-        </div>
-        <div className="total-box">
+        </div>}
+        {basket.length > 0 && <div className="total-box">
           <div className="mini-box">
             <div className="total">
               <h5>Total: </h5>
@@ -33,17 +33,25 @@ function Cart() {
             </div>
             <p>Delivery fee not included yet</p>
           </div>
-        </div>
+        </div>}
+        {basket.length === 0 && <div className="empty-cart">
+          <div className="empty-cart-container">
+            <img src="/images/assets/empty-cart.png" alt="" />
+            <h2>Your cart is empty!</h2>
+            <p>Browse our categories and discover our best deals!</p>
+            <Link to="/">START SHOPPING</Link>
+          </div>
+        </div>}
       </div>
 
-      <div className="checkout-buttons">
+      {basket.length > 0 && <div className="checkout-buttons">
         <div className="mini-box">
           <Link to="/">
             <button className="orange">CONTINUE SHOPPING</button>
           </Link>
           <button className="white">PROCEED TO CHECKOUT</button>
         </div>
-      </div>
+      </div>}
       <Footer />
     </>
   );
