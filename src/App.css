@@ -1,6 +1,13 @@
 .app{
-    background: #F5F5F5;
+    /* background: #F5F5F5; */
+    background-color: #50707F;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+}
+
+@media (max-width: 1025px) {
+    .app{
+        background: #F5F5F5;
+    }
 }

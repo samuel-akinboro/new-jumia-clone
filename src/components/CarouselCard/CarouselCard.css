@@ -1,0 +1,129 @@
+.carousel-card{
+  width: 145px;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 210px;
+  cursor: pointer;
+}
+
+.carousel-card > .image{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-card > .image > img{
+  width: 100%;
+  object-fit: contain;
+  /* height: 100%; */
+}
+
+.carousel-card > .info{
+  padding: 5px;
+  height: 20%;
+}
+
+.carousel-card > .info > h3{
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #282828;
+}
+
+.carousel-card > .info > p{
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 0 10px;
+  color: #282828;
+}
+
+@media (min-width: 428){
+  .carousel-card{
+    width: 162px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+  }
+}
+
+@media (min-width: 768px){
+  .carousel-card{
+    width: 298px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 345px;
+  }
+
+  .carousel-card > .info{
+    padding: 20px 5px 5px;
+    height: 20%;
+  }
+
+  .carousel-card > .info > h3{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .carousel-card > .info > p{
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1024px){
+  .carousel-card{
+    width: 400px;
+    height: 455px;
+  }
+
+  .carousel-card > .info{
+    padding: 30px 5px 5px;
+    height: 20%;
+  }
+
+  .carousel-card > .info > h3{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .carousel-card > .info > p{
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1200px){
+  .carousel-card{
+    width: 191px;
+    height: 263px;
+    transition: 0.1s linear !important;
+  }
+
+  .carousel-card:hover{
+    box-shadow: 0px  2px 4px rgb(163, 162, 162);
+    transform: scale(1.01);
+  }
+
+  .carousel-card > .info{
+    padding: 10px 5px 5px;
+    height: 20%;
+  }
+
+  .carousel-card > .info > h3{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .carousel-card > .info > p{
+    font-weight: 400;
+  }
+}

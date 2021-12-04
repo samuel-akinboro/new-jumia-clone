@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Advertisement from './Advertisement';
 import './AllProducts.css'
 import Card from './Card';
+import CardsRow from './CardsRow/CardsRow'
 import {db} from '../Firebase'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -88,6 +89,10 @@ function AllProducts() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
+      items: 4
+    },
+    less: {
+      breakpoint: { max: 680, min: 479 },
       items: 3
     },
     small: {
@@ -96,13 +101,14 @@ function AllProducts() {
     },
     mobile: {
       breakpoint: { max: 480, min: 0 },
-      items: 1
+      items: 2
     }
   };
 
 
   return (
     <div className="all-products">
+      <CardsRow title="Top selling items" color="rgb(254, 0, 0)" showMore={true} />
 
       {products.length > 0 && <div className="product-box">
         <h3 className="yellow">Best Portable Speaker Sale of the Season</h3>

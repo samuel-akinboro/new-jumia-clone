@@ -3,8 +3,8 @@ import "./Cart.css";
 import {Link} from 'react-router-dom'
 import { useStateValue } from "../StateProvider";
 import { getBasketTotal } from "../reducer";
-import SingleCartItem from "./SingleCartItem";
-import Footer from "./Footer";
+import SingleCartItem from "./SingleCartItem/SingleCartItem";
+import Footer from "./ConstantComponent/Footer/Footer";
 
 function Cart() {
   const [{ basket }] = useStateValue();

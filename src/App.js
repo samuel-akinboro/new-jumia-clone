@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
-import Home from './Home';
-import Header from './components/Header'
+import Home from './Pages/Home/Home';
+import Header from './components/ConstantComponent/Header/Header'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Cart from './components/Cart';
-import Login from './components/Login';
+import Login from './Pages/Login/Login';
 // import { auth } from './Firebase'
 // import { useStateValue } from './StateProvider';
-import SellProduct from './components/SellProduct';
+import SellProduct from './components/SellProduct/SellProduct';
 import './Firebase'
 
 
