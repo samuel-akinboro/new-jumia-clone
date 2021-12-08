@@ -3,15 +3,15 @@ import './ProductCard.css'
 import RemoveIcon from '@material-ui/icons/Remove';
 import AddIcon from '@material-ui/icons/Add';
 
-function ProductCard({src, title, price, priceDigit}) {
+function ProductCard({imageUrl, title, price, priceDigit, id}) {
   return (
     <div className="product-card">
       <div className="image">
-        <img src="/images/deals/4.jpg" alt="" />
+        <img src={imageUrl} alt="" />
       </div>
       <div className="info">
-        <h3>Nike Air Max 90 Flyease Men's Sneakers</h3>
-        <p>₦ 7,500</p>
+        <h3>{title}</h3>
+        <p>₦{price}</p>
       </div>
       {/* <div className="number-of-items">
         <button><AddIcon /></button>

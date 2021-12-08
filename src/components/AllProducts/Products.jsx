@@ -17,9 +17,9 @@ function Products() {
       <Advertisement image1="images/ad/ad4.jpg" image2="images/ad/ad6.jpg" />
       <Advertisement image1="images/ad/ad4.jpg" image2="images/ad/ad6.jpg" />
       <CategoryRow title="Shop The Best Collections For You!" bgColor="#fff" color="#282828" />
-      <CardsRow bgColor="#C7C7CD" color="#282828" seeMore={true} title="Nike" />
-      <CardsRow bgColor="#C7C7CD" color="#282828" seeMore={true} title="Kid's sneakers" />
-      <CardsRow bgColor="#C7C7CD" color="#282828" seeMore={true} title="High end sneakers" />
+      <CarouselCardsRow bgColor="#C7C7CD" color="#282828" seeMore={true} title="Nike" />
+      <CardsRow bgColor="#C7C7CD" color="#282828" seeMore={true} title="Top Deals | Women's Fashion" />
+      <CardsRow bgColor="#C7C7CD" color="#282828" seeMore={true} title="Top Deals | Drinks" />
       <Advertisement image1="images/ad/ad4.jpg" image2="images/ad/ad6.jpg" />
       <Advertisement image1="images/ad/ad4.jpg" image2="images/ad/ad6.jpg" />
       <CategoryRow title="Shop The Best Collections For You!" bgColor="#fff" color="#282828" />

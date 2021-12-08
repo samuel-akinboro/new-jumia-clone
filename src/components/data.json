@@ -108,5 +108,665 @@
       "number": "0",
       "numberAvailableInStock": "7"
     }
+  ],
+  "Sneakers Day Top Deals | Free Delivery" : [
+    {
+      "id": 13,
+      "src": "/images/deals/13.jpg",
+      "title": "Men Sneakers Sports Causal Sneaker Fashion Footwear Shoes",
+      "price": "4,990",
+      "priceDigit": "4990",
+      "number": "0",
+      "numberAvailableInStock": "3"
+    },
+    {
+      "id": 14,
+      "src": "/images/deals/14.jpg",
+      "title": "2021 Womens Casual High-Top Shoes Running Sneakers - Beige",
+      "price": "7,500",
+      "priceDigit": "7500",
+      "number": "0",
+      "numberAvailableInStock": "8"
+    },
+    {
+      "id": 15,
+      "src": "/images/deals/15.jpg",
+      "title": "Apple Airpods Pro With Noise Cancellation - White",
+      "price": "20,000",
+      "priceDigit": "20000",
+      "number": "0",
+      "numberAvailableInStock": "4"
+    },
+    {
+      "id": 16,
+      "src": "/images/deals/16.jpg",
+      "title": "QUBO Big1 - 4500mAh Big Battery, 6.26'WaterDrop Screen, 1GB+16GB Memory, 5MP+8MP Camera, Fingerprint,Android 10 Smartphone",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 17,
+      "src": "/images/deals/17.jpg",
+      "title": "Apple Iphone 12 6.1 Inches-4GB RAM, 64GB ROM, (12MP + 12MP), 2815mAh-Nano Sim-5G-Blue",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 18,
+      "src": "/images/deals/18.jpg",
+      "title": "Skyrun Double Door Top Mount Fridge 70L Sliver",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 19,
+      "src": "/images/deals/19.jpg",
+      "title": "LED Light 2.1 Desktop Computer Heavy Speaker Subwoofer Home Combination Bluetooth Speaker PC Laptop Cellphone USB Power Supply",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 20,
+      "src": "/images/deals/20.jpg",
+      "title": "Defacto Men's Backpack - Khaki",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 21,
+      "src": "/images/deals/21.jpg",
+      "title": "Backpack Casual Travel Bag School Bag & Laptop Bag",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 22,
+      "src": "/images/deals/22.jpg",
+      "title": "Defacto Men's Backpack - Grey",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 23,
+      "src": "/images/deals/23.jpg",
+      "title": "Itel 32' Inches A32100AE HD TV With Overvoltage Protection",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 24,
+      "src": "/images/deals/24.jpg",
+      "title": "Oraimo COMPACT 10000mAh Ultra Slim Power Fast Charging Bank",
+      "price": "4,500",
+      "priceDigit": "4500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    }
+  ],
+  "Everyday Deals" : [
+    {
+      "id": 25,
+      "src": "/images/deals/25.jpg",
+      "title": "Men Sneakers Sports Causal Sneaker Fashion Footwear Shoes",
+      "price": "4,990",
+      "priceDigit": "4990",
+      "number": "0",
+      "numberAvailableInStock": "3"
+    },
+    {
+      "id": 26,
+      "src": "/images/deals/26.jpg",
+      "title": "2021 Womens Casual High-Top Shoes Running Sneakers - Beige",
+      "price": "7,500",
+      "priceDigit": "7500",
+      "number": "0",
+      "numberAvailableInStock": "8"
+    },
+    {
+      "id": 27,
+      "src": "/images/deals/27.jpg",
+      "title": "Apple Airpods Pro With Noise Cancellation - White",
+      "price": "20,000",
+      "priceDigit": "20000",
+      "number": "0",
+      "numberAvailableInStock": "4"
+    },
+    {
+      "id": 28,
+      "src": "/images/deals/28.jpg",
+      "title": "QUBO Big1 - 4500mAh Big Battery, 6.26'WaterDrop Screen, 1GB+16GB Memory, 5MP+8MP Camera, Fingerprint,Android 10 Smartphone",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 29,
+      "src": "/images/deals/29.jpg",
+      "title": "Apple Iphone 12 6.1 Inches-4GB RAM, 64GB ROM, (12MP + 12MP), 2815mAh-Nano Sim-5G-Blue",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 30,
+      "src": "/images/deals/30.jpg",
+      "title": "Skyrun Double Door Top Mount Fridge 70L Sliver",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 31,
+      "src": "/images/deals/31.jpg",
+      "title": "LED Light 2.1 Desktop Computer Heavy Speaker Subwoofer Home Combination Bluetooth Speaker PC Laptop Cellphone USB Power Supply",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 32,
+      "src": "/images/deals/32.jpg",
+      "title": "Defacto Men's Backpack - Khaki",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 33,
+      "src": "/images/deals/33.jpg",
+      "title": "Backpack Casual Travel Bag School Bag & Laptop Bag",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 34,
+      "src": "/images/deals/34.jpg",
+      "title": "Defacto Men's Backpack - Grey",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 35,
+      "src": "/images/deals/35.jpg",
+      "title": "Itel 32' Inches A32100AE HD TV With Overvoltage Protection",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 36,
+      "src": "/images/deals/36.jpg",
+      "title": "Oraimo COMPACT 10000mAh Ultra Slim Power Fast Charging Bank",
+      "price": "4,500",
+      "priceDigit": "4500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    }
+  ],
+  "Nike" : [
+    {
+      "id": 37,
+      "src": "/images/deals/1.jpg",
+      "title": "Men Sneakers Sports Causal Sneaker Fashion Footwear Shoes",
+      "price": "4,990",
+      "priceDigit": "4990",
+      "number": "0",
+      "numberAvailableInStock": "3"
+    },
+    {
+      "id": 38,
+      "src": "/images/deals/2.jpg",
+      "title": "2021 Womens Casual High-Top Shoes Running Sneakers - Beige",
+      "price": "7,500",
+      "priceDigit": "7500",
+      "number": "0",
+      "numberAvailableInStock": "8"
+    },
+    {
+      "id": 39,
+      "src": "/images/deals/8.jpg",
+      "title": "Apple Airpods Pro With Noise Cancellation - White",
+      "price": "20,000",
+      "priceDigit": "20000",
+      "number": "0",
+      "numberAvailableInStock": "4"
+    },
+    {
+      "id": 40,
+      "src": "/images/deals/9.jpg",
+      "title": "QUBO Big1 - 4500mAh Big Battery, 6.26'WaterDrop Screen, 1GB+16GB Memory, 5MP+8MP Camera, Fingerprint,Android 10 Smartphone",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 41,
+      "src": "/images/deals/13.jpg",
+      "title": "Apple Iphone 12 6.1 Inches-4GB RAM, 64GB ROM, (12MP + 12MP), 2815mAh-Nano Sim-5G-Blue",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 42,
+      "src": "/images/deals/17.jpg",
+      "title": "Skyrun Double Door Top Mount Fridge 70L Sliver",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 43,
+      "src": "/images/deals/18.jpg",
+      "title": "LED Light 2.1 Desktop Computer Heavy Speaker Subwoofer Home Combination Bluetooth Speaker PC Laptop Cellphone USB Power Supply",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 44,
+      "src": "/images/deals/16.jpg",
+      "title": "Defacto Men's Backpack - Khaki",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 45,
+      "src": "/images/deals/19.jpg",
+      "title": "Backpack Casual Travel Bag School Bag & Laptop Bag",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 46,
+      "src": "/images/deals/13.jpg",
+      "title": "Defacto Men's Backpack - Grey",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 48,
+      "src": "/images/deals/24.jpg",
+      "title": "Itel 32' Inches A32100AE HD TV With Overvoltage Protection",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 49,
+      "src": "/images/deals/14.jpg",
+      "title": "Oraimo COMPACT 10000mAh Ultra Slim Power Fast Charging Bank",
+      "price": "4,500",
+      "priceDigit": "4500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    }
+  ],
+  "Top Deals | Women's Fashion" : [
+    {
+      "id": 50,
+      "src": "/images/deals/40.jpg",
+      "title": "Men Sneakers Sports Causal Sneaker Fashion Footwear Shoes",
+      "price": "4,990",
+      "priceDigit": "4990",
+      "number": "0",
+      "numberAvailableInStock": "3"
+    },
+    {
+      "id": 51,
+      "src": "/images/deals/41.jpg",
+      "title": "2021 Womens Casual High-Top Shoes Running Sneakers - Beige",
+      "price": "7,500",
+      "priceDigit": "7500",
+      "number": "0",
+      "numberAvailableInStock": "8"
+    },
+    {
+      "id": 52,
+      "src": "/images/deals/42.jpg",
+      "title": "Apple Airpods Pro With Noise Cancellation - White",
+      "price": "20,000",
+      "priceDigit": "20000",
+      "number": "0",
+      "numberAvailableInStock": "4"
+    },
+    {
+      "id": 53,
+      "src": "/images/deals/43.jpg",
+      "title": "QUBO Big1 - 4500mAh Big Battery, 6.26'WaterDrop Screen, 1GB+16GB Memory, 5MP+8MP Camera, Fingerprint,Android 10 Smartphone",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 54,
+      "src": "/images/deals/44.jpg",
+      "title": "Apple Iphone 12 6.1 Inches-4GB RAM, 64GB ROM, (12MP + 12MP), 2815mAh-Nano Sim-5G-Blue",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 55,
+      "src": "/images/deals/45.jpg",
+      "title": "Skyrun Double Door Top Mount Fridge 70L Sliver",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 56,
+      "src": "/images/deals/46.jpg",
+      "title": "LED Light 2.1 Desktop Computer Heavy Speaker Subwoofer Home Combination Bluetooth Speaker PC Laptop Cellphone USB Power Supply",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 57,
+      "src": "/images/deals/47.jpg",
+      "title": "Defacto Men's Backpack - Khaki",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 58,
+      "src": "/images/deals/48.jpg",
+      "title": "Backpack Casual Travel Bag School Bag & Laptop Bag",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 59,
+      "src": "/images/deals/49.jpg",
+      "title": "Defacto Men's Backpack - Grey",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 60,
+      "src": "/images/deals/50.jpg",
+      "title": "Itel 32' Inches A32100AE HD TV With Overvoltage Protection",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 556,
+      "src": "/images/deals/43.jpg",
+      "title": "Oraimo COMPACT 10000mAh Ultra Slim Power Fast Charging Bank",
+      "price": "4,500",
+      "priceDigit": "4500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    }
+  ],
+  "Top Deals | Drinks" : [
+    {
+      "id": 61,
+      "src": "/images/deals/51.jpg",
+      "title": "Men Sneakers Sports Causal Sneaker Fashion Footwear Shoes",
+      "price": "4,990",
+      "priceDigit": "4990",
+      "number": "0",
+      "numberAvailableInStock": "3"
+    },
+    {
+      "id": 62,
+      "src": "/images/deals/52.jpg",
+      "title": "2021 Womens Casual High-Top Shoes Running Sneakers - Beige",
+      "price": "7,500",
+      "priceDigit": "7500",
+      "number": "0",
+      "numberAvailableInStock": "8"
+    },
+    {
+      "id": 63,
+      "src": "/images/deals/53.jpg",
+      "title": "Apple Airpods Pro With Noise Cancellation - White",
+      "price": "20,000",
+      "priceDigit": "20000",
+      "number": "0",
+      "numberAvailableInStock": "4"
+    },
+    {
+      "id": 64,
+      "src": "/images/deals/54.jpg",
+      "title": "QUBO Big1 - 4500mAh Big Battery, 6.26'WaterDrop Screen, 1GB+16GB Memory, 5MP+8MP Camera, Fingerprint,Android 10 Smartphone",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 65,
+      "src": "/images/deals/55.jpg",
+      "title": "Apple Iphone 12 6.1 Inches-4GB RAM, 64GB ROM, (12MP + 12MP), 2815mAh-Nano Sim-5G-Blue",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 66,
+      "src": "/images/deals/56.jpg",
+      "title": "Skyrun Double Door Top Mount Fridge 70L Sliver",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 67,
+      "src": "/images/deals/57.jpg",
+      "title": "LED Light 2.1 Desktop Computer Heavy Speaker Subwoofer Home Combination Bluetooth Speaker PC Laptop Cellphone USB Power Supply",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 68,
+      "src": "/images/deals/58.jpg",
+      "title": "Defacto Men's Backpack - Khaki",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 69,
+      "src": "/images/deals/59.jpg",
+      "title": "Backpack Casual Travel Bag School Bag & Laptop Bag",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 70,
+      "src": "/images/deals/60.jpg",
+      "title": "Defacto Men's Backpack - Grey",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 71,
+      "src": "/images/deals/61.jpg",
+      "title": "Itel 32' Inches A32100AE HD TV With Overvoltage Protection",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 72,
+      "src": "/images/deals/62.jpg",
+      "title": "Oraimo COMPACT 10000mAh Ultra Slim Power Fast Charging Bank",
+      "price": "4,500",
+      "priceDigit": "4500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    }
+  ],
+  "Nivea" : [
+    {
+      "id": 73,
+      "src": "/images/deals/63.jpg",
+      "title": "Men Sneakers Sports Causal Sneaker Fashion Footwear Shoes",
+      "price": "4,990",
+      "priceDigit": "4990",
+      "number": "0",
+      "numberAvailableInStock": "3"
+    },
+    {
+      "id": 74,
+      "src": "/images/deals/64.jpg",
+      "title": "2021 Womens Casual High-Top Shoes Running Sneakers - Beige",
+      "price": "7,500",
+      "priceDigit": "7500",
+      "number": "0",
+      "numberAvailableInStock": "8"
+    },
+    {
+      "id": 75,
+      "src": "/images/deals/65.jpg",
+      "title": "Apple Airpods Pro With Noise Cancellation - White",
+      "price": "20,000",
+      "priceDigit": "20000",
+      "number": "0",
+      "numberAvailableInStock": "4"
+    },
+    {
+      "id": 76,
+      "src": "/images/deals/66.jpg",
+      "title": "QUBO Big1 - 4500mAh Big Battery, 6.26'WaterDrop Screen, 1GB+16GB Memory, 5MP+8MP Camera, Fingerprint,Android 10 Smartphone",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 77,
+      "src": "/images/deals/67.jpg",
+      "title": "Apple Iphone 12 6.1 Inches-4GB RAM, 64GB ROM, (12MP + 12MP), 2815mAh-Nano Sim-5G-Blue",
+      "price": "2,500",
+      "priceDigit": "2500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 78,
+      "src": "/images/deals/68.jpg",
+      "title": "Skyrun Double Door Top Mount Fridge 70L Sliver",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 79,
+      "src": "/images/deals/69.jpg",
+      "title": "LED Light 2.1 Desktop Computer Heavy Speaker Subwoofer Home Combination Bluetooth Speaker PC Laptop Cellphone USB Power Supply",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 80,
+      "src": "/images/deals/70.jpg",
+      "title": "Defacto Men's Backpack - Khaki",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 81,
+      "src": "/images/deals/71.jpg",
+      "title": "Backpack Casual Travel Bag School Bag & Laptop Bag",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 82,
+      "src": "/images/deals/72.jpg",
+      "title": "Defacto Men's Backpack - Grey",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 83,
+      "src": "/images/deals/73.jpg",
+      "title": "Itel 32' Inches A32100AE HD TV With Overvoltage Protection",
+      "price": "12,500",
+      "priceDigit": "12500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    },
+    {
+      "id": 84,
+      "src": "/images/deals/74.jpg",
+      "title": "Oraimo COMPACT 10000mAh Ultra Slim Power Fast Charging Bank",
+      "price": "4,500",
+      "priceDigit": "4500",
+      "number": "0",
+      "numberAvailableInStock": "7"
+    }
   ]
 }
