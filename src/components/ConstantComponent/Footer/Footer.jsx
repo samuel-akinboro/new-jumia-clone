@@ -5,32 +5,35 @@ function Footer() {
   return (
     <div className="footer">
           <div className="footer__top">
-              <img src="/images/logo/dark.jpg" alt="" />
-              <div className="news__letter">
-                  <h4>New To Jumia?</h4>
-                  <p>Subscribe to our newsletter to get updates on our latest offers!</p>
-                  <form action="">
-                      <input type="email" name="" id="" placeholder="Enter Email"/>
-                      <button>male</button>
-                      <button>female</button>
-                  </form>
-              </div>
-              <div className="download__app">
-                  <div className="download__app__top">
-                      <img src="/images/jumia-icon/download-app.jpg" alt="" />
-                      <div className="details">
-                          <h4>Download Jumia free app</h4>
-                      <p>Get access to exclusive offers!</p>
-                      </div>
-                  </div>
-                  <div className="buttons">
-                      <img src="/images/jumia-icon/btn1.jpg" alt="" />
-                      <img src="/images/jumia-icon/btn2.jpg" alt=""/>
-                  </div>
+              <div className="footer__top__container">
+                <img src="/images/logo/dark.jpg" alt="" />
+                <div className="news__letter">
+                    <h4>New To Jumia?</h4>
+                    <p>Subscribe to our newsletter to get updates on our latest offers!</p>
+                    <form action="">
+                        <input type="email" name="" id="" placeholder="Enter Email"/>
+                        <button>male</button>
+                        <button>female</button>
+                    </form>
+                </div>
+                <div className="download__app">
+                    <div className="download__app__top">
+                        <img src="/images/jumia-icon/download-app.jpg" alt="" />
+                        <div className="details">
+                            <h4>Download Jumia free app</h4>
+                        <p>Get access to exclusive offers!</p>
+                        </div>
+                    </div>
+                    <div className="buttons">
+                        <img src="/images/jumia-icon/btn1.jpg" alt="" />
+                        <img src="/images/jumia-icon/btn2.jpg" alt=""/>
+                    </div>
+                </div>
               </div>
           </div>
           <div className="footer__bottom">
-              <div className="box">
+            <div className="footer__bottom__container">
+            <div className="box">
                   <h4>Let us help you</h4>
                   <ul>
                       <li>Help Center</li>
@@ -74,6 +77,7 @@ function Footer() {
                       <li>South Africa</li>
                   </ul>
               </div>
+            </div>
           </div>
           <p className="copyright">Created By black vibes (Disclaimer !!! This is just a clone)</p>
     </div>

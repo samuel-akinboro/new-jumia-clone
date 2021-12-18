@@ -6,11 +6,17 @@
 
 .footer__top{
     background-color: #282828;
-     padding: 2em 2.8em;
-     color: #FFFFFF;
+    padding: 2em 2.8em;
+}
+
+.footer__top .footer__top__container{
+    background-color: #282828;
+    color: #FFFFFF;
     display: grid;
     grid-template-columns: minmax(100px, 250px) minmax(380px, 1fr) minmax(100px, 300px);
     grid-template-rows: auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -77,12 +83,18 @@
     color: #fff;
 }
 
-.footer__bottom{
+/* .footer__bottom{
+    padding: 2em 2.8em;
+} */
+
+.footer__bottom .footer__bottom__container{
     padding: 2em 2.8em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-template-rows: auto;
     border-bottom: 1px solid grey;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer ul{

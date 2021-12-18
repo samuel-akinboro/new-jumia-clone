@@ -54,7 +54,7 @@
     margin-right: auto;
     border-radius: 5px;
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 1200px !important;
     margin-bottom: 1.2em;
   }
 

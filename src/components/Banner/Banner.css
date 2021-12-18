@@ -6,6 +6,7 @@
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: auto;
     grid-gap: 17px;
+    max-width: 1200px;
 }
 
 .banner .custom-dot-list-style{
@@ -144,6 +145,7 @@
     margin: 15px auto;
     overflow-y: hidden;
     height: 60px;
+    max-width: 1200px;
 }
 
 .small-card img{
