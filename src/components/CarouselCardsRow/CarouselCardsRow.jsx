@@ -69,7 +69,7 @@ function CardsRow({showMore, title, color, bgColor}) {
         // centerMode={true}
       >
         {
-          data[title].map(item => <CarouselCard imageUrl={item.src} title={item.title} price={item.price} />)
+          data[title].map(item => <CarouselCard key={item.id} imageUrl={item.src} title={item.title} price={item.price} />)
         }
       </Carousel>
     </div>
